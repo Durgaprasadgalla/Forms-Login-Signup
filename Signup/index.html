@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <form id="myform">
+    <div class="bg-container">
+        
+
+    <div class="card-container">
+
+    <div class="box">
+        <img class="box-img" src="https://st.depositphotos.com/18722762/51522/v/450/depositphotos_515228796-stock-illustration-online-registration-sign-login-account.jpg">  </img>
+    </div>
+    <div class="signup-container">
+
+        <div class="signup">
+            <h1 class="heading">Signup</h1>   
+        </div>
+       
+        <input type="text" placeholder="Firstname" class="input-field" required >
+        <input type="text" placeholder="Lastname" class="input-field" required>
+        <input type="text" placeholder="Phone" class="input-field" required>
+        <input type="email" placeholder="Email@gmail.com" class="input-field" required>
+        <input  class="input-field" type="password" placeholder="Enter Password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" name="password" required>
+     
+
+        <div class="button-section">
+        
+        <button id="submit-btn" class="button">Register</button>
+    </form>
+    <div id="sucess-msg" style="display: none; margin-top:10px">Registeration Sucessfull...</div>
+        </div>
+        
+    </div>
+    
+</div>
+
+</div>
+
+        
+<script src="signup.js"></script>
+</body>
+</html>

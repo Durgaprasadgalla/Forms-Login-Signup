@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <form id="login-form">
+    <div class="bg-container">
+       <div class="card">
+    <div class="box-1">
+        <img src="https://st.depositphotos.com/18722762/51522/v/450/depositphotos_515228796-stock-illustration-online-registration-sign-login-account.jpg">  </img>
+    </div>
+    <div class="box-2">
+        <h1> Login Form </h1>
+       <input class="input-fields" type="text" placeholder="username" id="username" required>
+       <p id="msg" class="error "> </p>
+       <input  class="input-fields" type="password" placeholder="Enter Password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" name="password" required>
+       <p id="msg2" class="error2 "> </p>
+       <div class="button-section">
+        <button id="login-button"> Login </button>
+     
+    </form>
+    <div id="sucess-msg" style="display: none; margin-top:10px">Login Sucessfull...</div>
+</div>
+<script src="script.js"> </script>
+</body>
+</html>
